@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "description": "OAUTH_Tube é uma extensão para desenvolvedores, para se utilizarem com a biblioteca youtubeiPy",
-  "name": "OAUTH_Tube",
+  "description": "oauth_tube é uma extensão para desenvolvedores, para se utilizarem em suas aplicações",
+  "name": "oauth_tube",
   "version": "1.0",
   "permissions": [
     "cookies", 
