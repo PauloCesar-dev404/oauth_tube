@@ -1,10 +1,11 @@
-<h1 align="center">
-  <img src="https://raw.githubusercontent.com/PauloCesar-dev404/oauth_tube/main/OAUTH_Tube/icons/favicon.png" alt="oauth_tube Logo" width="380">
-  oauth_tube
+<div align="center">
+<h1>
+  <img src="https://raw.githubusercontent.com/PauloCesar-dev404/oauth_tube/main/OAUTH_Tube/icons/favicon.png" alt="oauth_tube Logo" width="380"><br>
+oauth_tube
 </h1>
 <p align="center">Extensão voltada para desenvolvedores, que automatiza a captura das credenciais necessárias para autenticação no YouTube, permitindo o uso dessas credenciais em suas aplicações.</p>
+</div>
 
-## Como Usar
 
 ### Iniciar a API Local
 
