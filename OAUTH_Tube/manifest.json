@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "description": "OAUTH_Tube é uma extensão para desenvolvedores, para se utilizarem com a biblioteca youtubeiPy",
+  "name": "OAUTH_Tube",
+  "version": "1.0",
+  "permissions": [
+    "cookies", 
+    "webRequest"
+  ],
+  "host_permissions": [
+    "http://*/", 
+    "https://*/"
+  ],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/", 
+        "https://*/"
+      ],
+      "js": ["js/popup.js"]
+    }
+  ],
+  "icons": {
+    "500": "icons/favicon.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}

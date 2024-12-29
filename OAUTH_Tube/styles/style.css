@@ -1,0 +1,173 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo uma cor de fundo neutra */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    width: 800px;
+}
+
+/* Cabeçalho com o logo */
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+#logo-app img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/* Estilo para as seções */
+main {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Estilizando os botões */
+button {
+    background-color: #869eb9;
+    color: #fff;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b7cce1;
+}
+
+/* Estilo para o código */
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.codes-divs {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    display: block;
+    color: #444;
+}
+
+/* Estilo para o link do manual */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer p {
+    color: #888;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #logo-app img {
+        width: 60px;
+        height: 60px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    code, .codes-divs {
+        font-size: 0.85rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+/* extra.css */
+
+pre {
+    position: relative;
+    padding: 1em; 
+    border-radius: 4px; 
+
+    overflow: hidden; 
+}
+
+/* Estilo do contêiner do botão */
+.copy-button-wrapper {
+    position: absolute; 
+    top: 10px; 
+    right: 0px; 
+    z-index: 20; 
+}
+
+/* Estilo do botão */
+.copy-button {
+    background: transparent; /* Cor de fundo do botão */
+    border: none; /* Remove bordas do botão */
+    color: #4d4d4d; /* Cor do texto */
+    padding: 4px 8px; /* Espaçamento interno do botão reduzido */
+    font-size: 12px; /* Tamanho da fonte reduzido */
+    border-radius: 4px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    display: flex;
+    align-items: center; /* Alinha o SVG e o texto verticalmente */
+    gap: 4px; 
+}
+
+.copy-button svg {
+    width: 20px; /* Largura do SVG reduzida */
+    height: 20px; /* Altura do SVG reduzida */
+}
+
+.copy-button.success {
+    color: #515151; /* Cor do texto quando o texto é copiado */
+}
+
+.copy-button.success svg path {
+    fill: #515151; /* Cor do ícone quando o texto é copiado */
+}

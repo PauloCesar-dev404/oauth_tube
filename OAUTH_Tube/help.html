@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAUTH_Tube - Guia de Uso</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo-app">
+            <img src="icons/favicon.png" alt="Logo do OAUTH_Tube" width="100" height="100">
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>Sobre a Extensão</h1>
+            <p>A extensão OAUTH_Tube automatiza a captura das credenciais necessárias para usar a biblioteca <code>youtubeiPy</code> em modo usuário autenticado.</p>
+        </section>
+
+        <section>
+            <h1>Como Usar:</h1>
+            <p>Após inicializar a API local <code>oauth_tube</code> em seu ambiente virtual, execute o comando:</p>
+            <pre><code class="codes-divs">oauth_tube init</code></pre>
+            <p>Depois, você pode abrir a página do YouTube e a extensão irá capturar os dados necessários para autenticação.</p>
+        </section>
+
+        <section>
+            <h1>Atenção!</h1>
+            <p>Se você estiver utilizando redes não confiáveis, esteja ciente de que a extensão transmite dados pela rede. Por questões de segurança, é altamente recomendável não utilizar a extensão em redes públicas ou compartilhadas, pois suas credenciais podem ser capturadas.</p>
+            <p>Em caso de dúvida sobre a segurança do ambiente, recomendamos não utilizar a extensão <code>oauth_tube</code> até garantir que a rede seja segura.</p>
+        </section>
+
+        <section>
+            <h1>Problemas Comuns</h1>
+            <p>Se você encontrar problemas ao tentar usar a extensão, verifique os seguintes pontos:</p>
+            <ul>
+                <li>Certifique-se de que a API local <code>oauth_tube</code> está rodando corretamente.</li>
+                <li>Verifique se a URL da API está acessível no seu navegador (<code><a href="http://127.0.0.1:4474/api/status" target="_blank" rel="noopener noreferrer">http://127.0.0.1:4474/api/status</a></code>).</li>
+            </ul>
+        </section>
+
+
+    </main>
+
+
+    <script src="js/popup.js"></script>
+</body>
+
+</html>
