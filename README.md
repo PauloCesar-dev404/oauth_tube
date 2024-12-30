@@ -11,6 +11,11 @@ oauth_tube
 
 Execute o comando `init` para inicializar a API local e começar a captura de credenciais.
 
+Após iniciado irá ter um console onde você pode digitar comandos como `clear` para limpar o terminal , `stop` para parar a execução.
+
+
+
+
 **Exemplo de script para obter os dados da API:**
 
 ```python
